@@ -16,7 +16,7 @@ fi
 case "${APP_MODE}" in
   python)
     echo "Starting Python (Flask) app on port ${PORT}..."
-    python flask_app.py
+    exec gunicorn --bind 0.0.0.0:$PORT flask_app:app
     ;;
   node)
     echo "Starting Node (Express.js) app on port ${PORT}..."
