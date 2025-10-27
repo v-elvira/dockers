@@ -1,0 +1,8 @@
+file example
+ERROR: ok
+end of file
+no error here or not
+another ERROR
+
+docker build --build-arg TEXT_TOOL=sed -t grepp .
+docker run --rm -v ./data_example:/data grepp

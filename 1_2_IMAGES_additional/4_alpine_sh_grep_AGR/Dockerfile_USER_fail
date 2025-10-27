@@ -1,0 +1,13 @@
+FROM alpine:3.17
+ARG TEXT_TOOL=grep  # sed, awk
+RUN apk add --no-cache $TEXT_TOOL
+# RUN apk add shadow && useradd myuser
+RUN adduser -D myuser && mkdir -p /home/myuser/app
+RUN chown -R myuser:myuser /home/myuser/app
+USER myuser
+COPY process.sh /home/myuser/app/process.sh
+WORKDIR /home/myuser/app/
+RUN chmod +x process.sh  
+# ?? chmod: process.sh: Operation not permitted (in diff variants)
+VOLUME /data
+CMD ["/home/myuser/app/process.sh", "/data/input.txt"]
