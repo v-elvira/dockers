@@ -12,7 +12,7 @@ logging.basicConfig(
 
 @app.route("/")
 def index():
-    logging.info('Accessed the index page.')
+    app.logger.info('Accessed the index page.')
     return "Hello from a health-checked Flask!"
 
 @app.route("/health")
