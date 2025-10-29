@@ -38,3 +38,64 @@
 2025-10-29 21:40:08,085 - INFO - 127.0.0.1 - - [29/Oct/2025 21:40:08] "GET /health HTTP/1.1" 200 -
 2025-10-29 21:40:38,167 - INFO - 127.0.0.1 - - [29/Oct/2025 21:40:38] "GET /health HTTP/1.1" 200 -
 2025-10-29 21:41:08,240 - INFO - 127.0.0.1 - - [29/Oct/2025 21:41:08] "GET /health HTTP/1.1" 200 -
+2025-10-29 21:55:52,678 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.17.0.2:5000
+2025-10-29 21:55:52,679 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-29 21:55:52,680 - INFO -  * Restarting with stat
+2025-10-29 21:55:52,892 - WARNING -  * Debugger is active!
+2025-10-29 21:55:52,893 - INFO -  * Debugger PIN: 922-821-892
+2025-10-29 21:56:02,811 - INFO - Accessed the index page.
+2025-10-29 21:56:02,812 - INFO - 172.17.0.1 - - [29/Oct/2025 21:56:02] "GET / HTTP/1.1" 200 -
+2025-10-29 21:56:22,537 - INFO - 127.0.0.1 - - [29/Oct/2025 21:56:22] "GET /health HTTP/1.1" 200 -
+2025-10-29 21:56:23,002 - INFO -  * Detected change in '/home/webuser/app.py', reloading
+2025-10-29 21:56:23,037 - INFO -  * Restarting with stat
+2025-10-29 21:56:23,264 - WARNING -  * Debugger is active!
+2025-10-29 21:56:23,265 - INFO -  * Debugger PIN: 922-821-892
+2025-10-29 21:56:24,635 - INFO - Accessed the index page.
+2025-10-29 21:56:24,636 - INFO - 172.17.0.1 - - [29/Oct/2025 21:56:24] "GET / HTTP/1.1" 200 -
+2025-10-29 21:56:52,603 - INFO - 127.0.0.1 - - [29/Oct/2025 21:56:52] "GET /health HTTP/1.1" 200 -
+2025-10-29 21:57:22,685 - INFO - 127.0.0.1 - - [29/Oct/2025 21:57:22] "GET /health HTTP/1.1" 200 -
+2025-10-29 21:57:37,534 - INFO -  * Detected change in '/home/webuser/app.py', reloading
+2025-10-29 21:57:37,586 - INFO -  * Restarting with stat
+2025-10-29 21:57:37,797 - WARNING -  * Debugger is active!
+2025-10-29 21:57:37,798 - INFO -  * Debugger PIN: 922-821-892
+2025-10-29 22:00:17,732 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.17.0.2:5000
+2025-10-29 22:00:17,739 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-29 22:00:17,742 - INFO -  * Restarting with stat
+2025-10-29 22:00:17,962 - WARNING -  * Debugger is active!
+2025-10-29 22:00:17,963 - INFO -  * Debugger PIN: 561-788-031
+2025-10-29 22:00:43,553 - INFO - Accessed the index page no app volume.
+2025-10-29 22:00:43,554 - INFO - 172.17.0.1 - - [29/Oct/2025 22:00:43] "GET / HTTP/1.1" 200 -
+2025-10-29 22:00:47,584 - INFO - 127.0.0.1 - - [29/Oct/2025 22:00:47] "GET /health HTTP/1.1" 200 -
+2025-10-29 22:01:50,082 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.17.0.2:5000
+2025-10-29 22:01:50,082 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-29 22:01:50,083 - INFO -  * Restarting with stat
+2025-10-29 22:01:50,297 - WARNING -  * Debugger is active!
+2025-10-29 22:01:50,298 - INFO -  * Debugger PIN: 140-965-697
+2025-10-29 22:01:56,318 - INFO - Accessed the index page WITH adding app volume (no rebuild, -v $(pwd)/app.py:/home/webuser/app.py).
+2025-10-29 22:01:56,320 - INFO - 172.17.0.1 - - [29/Oct/2025 22:01:56] "GET / HTTP/1.1" 200 -
+2025-10-29 22:02:51,881 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.17.0.2:5000
+2025-10-29 22:02:51,881 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-29 22:02:51,882 - INFO -  * Restarting with stat
+2025-10-29 22:02:52,092 - WARNING -  * Debugger is active!
+2025-10-29 22:02:52,092 - INFO -  * Debugger PIN: 963-490-651
+2025-10-29 22:03:08,179 - INFO - Accessed the index page no app volume.
+2025-10-29 22:03:08,180 - INFO - 172.17.0.1 - - [29/Oct/2025 22:03:08] "GET / HTTP/1.1" 200 -
+2025-10-29 22:03:21,755 - INFO - 127.0.0.1 - - [29/Oct/2025 22:03:21] "GET /health HTTP/1.1" 200 -
+2025-10-29 22:03:51,825 - INFO - 127.0.0.1 - - [29/Oct/2025 22:03:51] "GET /health HTTP/1.1" 200 -
+2025-10-29 22:04:21,903 - INFO - 127.0.0.1 - - [29/Oct/2025 22:04:21] "GET /health HTTP/1.1" 200 -
+2025-10-29 22:04:51,980 - INFO - 127.0.0.1 - - [29/Oct/2025 22:04:51] "GET /health HTTP/1.1" 200 -
+2025-10-29 22:05:22,048 - INFO - 127.0.0.1 - - [29/Oct/2025 22:05:22] "GET /health HTTP/1.1" 200 -
+2025-10-29 22:05:52,116 - INFO - 127.0.0.1 - - [29/Oct/2025 22:05:52] "GET /health HTTP/1.1" 200 -
+2025-10-29 22:06:41,751 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m

@@ -12,8 +12,8 @@ logging.basicConfig(
 
 @app.route("/")
 def index():
-    app.logger.info('Accessed the index page.')
-    return "Hello from a health-checked Flask!"
+    app.logger.info('trying Accessed the index page WITH NO adding app volume (no rebuild, del -v $(pwd)/app.py:/home/webuser/app.py).')
+    return "trying Hello from a health-checked Flask WITH NO app volume again!"  # used v1 version of app.py from COPY (builded)
 
 @app.route("/health")
 def health():
@@ -30,3 +30,6 @@ if __name__ == "__main__":
 # docker run --rm -p 5000:5000 --name fh -v $(pwd)/logs:/data/logs flask-health
 
 # logs/app.log will be created and keep logs through container removes 
+
+# docker run --rm -p 5000:5000 --name fh -v $(pwd)/logs:/data/logs -v $(pwd)/app.py:/home/webuser/app.py flask-health
+# app volume for dev or not use it for prod (will be used v1 from image COPY instruction)
