@@ -1,0 +1,40 @@
+2025-10-29 21:28:59,423 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.17.0.2:5000
+2025-10-29 21:28:59,424 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-29 21:28:59,425 - INFO -  * Restarting with stat
+2025-10-29 21:28:59,636 - WARNING -  * Debugger is active!
+2025-10-29 21:28:59,637 - INFO -  * Debugger PIN: 145-940-270
+2025-10-29 21:29:23,835 - INFO - 172.17.0.1 - - [29/Oct/2025 21:29:23] "[33mGET /hi HTTP/1.1[0m" 404 -
+2025-10-29 21:29:23,865 - INFO - 172.17.0.1 - - [29/Oct/2025 21:29:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-10-29 21:29:29,249 - INFO - 127.0.0.1 - - [29/Oct/2025 21:29:29] "GET /health HTTP/1.1" 200 -
+2025-10-29 21:29:43,514 - INFO - Accessed the index page.
+2025-10-29 21:29:43,515 - INFO - 172.17.0.1 - - [29/Oct/2025 21:29:43] "GET / HTTP/1.1" 200 -
+2025-10-29 21:30:18,831 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.17.0.2:5000
+2025-10-29 21:30:18,831 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-29 21:30:18,832 - INFO -  * Restarting with stat
+2025-10-29 21:30:19,059 - WARNING -  * Debugger is active!
+2025-10-29 21:30:19,060 - INFO -  * Debugger PIN: 629-699-578
+2025-10-29 21:30:48,681 - INFO - 127.0.0.1 - - [29/Oct/2025 21:30:48] "GET /health HTTP/1.1" 200 -
+2025-10-29 21:31:18,791 - INFO - 127.0.0.1 - - [29/Oct/2025 21:31:18] "GET /health HTTP/1.1" 200 -
+2025-10-29 21:31:48,870 - INFO - 127.0.0.1 - - [29/Oct/2025 21:31:48] "GET /health HTTP/1.1" 200 -
+2025-10-29 21:32:18,949 - INFO - 127.0.0.1 - - [29/Oct/2025 21:32:18] "GET /health HTTP/1.1" 200 -
+2025-10-29 21:32:49,025 - INFO - 127.0.0.1 - - [29/Oct/2025 21:32:49] "GET /health HTTP/1.1" 200 -
+2025-10-29 21:33:19,126 - INFO - 127.0.0.1 - - [29/Oct/2025 21:33:19] "GET /health HTTP/1.1" 200 -
+2025-10-29 21:39:38,207 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.17.0.2:5000
+2025-10-29 21:39:38,208 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-29 21:39:38,208 - INFO -  * Restarting with stat
+2025-10-29 21:39:38,446 - WARNING -  * Debugger is active!
+2025-10-29 21:39:38,448 - INFO -  * Debugger PIN: 297-790-449
+2025-10-29 21:39:49,603 - INFO - Accessed the index page.
+2025-10-29 21:39:49,605 - INFO - 172.17.0.1 - - [29/Oct/2025 21:39:49] "GET / HTTP/1.1" 200 -
+2025-10-29 21:40:08,085 - INFO - 127.0.0.1 - - [29/Oct/2025 21:40:08] "GET /health HTTP/1.1" 200 -
+2025-10-29 21:40:38,167 - INFO - 127.0.0.1 - - [29/Oct/2025 21:40:38] "GET /health HTTP/1.1" 200 -
+2025-10-29 21:41:08,240 - INFO - 127.0.0.1 - - [29/Oct/2025 21:41:08] "GET /health HTTP/1.1" 200 -
